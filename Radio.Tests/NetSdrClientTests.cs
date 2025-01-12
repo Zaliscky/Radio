@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace Radio.Tests
 {
     [TestFixture]
-    public class TcpClientAdapterTests
+    public class NetSdrClientTests
     {
         private Mock<ITcpClient> _mockAdapter;
         private Mock<INetSdrMessageHandler> _mockHandler;
